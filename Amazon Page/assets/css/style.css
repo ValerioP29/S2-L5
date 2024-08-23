@@ -1,0 +1,118 @@
+/* Stili generali */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+header {
+  background-color: #222f3f;
+  height: 60px;
+}
+header div img {
+  height: 31px;
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 20px;
+}
+main {
+  padding-inline: 20px;
+}
+nav {
+  background-color: #364757;
+  height: 25 px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+nav a {
+  color: white;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin-right: 10px;
+}
+div p a {
+  text-decoration: none;
+}
+span {
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+}
+span a {
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+footer div a {
+  font-size: 0.8rem;
+  text-align: center;
+}
+/* Stili per classi*/
+.gift {
+  background-color: #f56800;
+  font-size: 0.7rem;
+  color: white;
+  margin-top: 20px;
+  height: 14px;
+  text-align: center;
+  padding-top: 5px;
+}
+.holiday {
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+
+  background-position: center;
+  max-width: 100%;
+
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.holiday h1 {
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+.paragraph {
+  font-size: 0.7rem;
+  padding-top: 20px;
+}
+.image {
+  padding-block: 10px;
+  display: inline-block;
+  background-color: white;
+  margin-block: 20px;
+  width: 100%;
+
+  text-align: center;
+}
+
+.image p {
+  font-size: 0.8rem;
+  text-align: left;
+  padding-left: 27px;
+  padding-block: 20px;
+}
+
+.image img {
+  margin: 8px;
+  border-radius: 10%;
+}
+
+.ancora {
+  text-align: center;
+  background-color: #364757;
+  height: 30px;
+  padding-top: 10px;
+}
+.ancora a {
+  color: white;
+}
+.footer {
+  background-color: #222f3f;
+  text-align: center;
+  height: 130px;
+}
+.footer img {
+  height: 40px;
+  padding-top: 50px;
+}
